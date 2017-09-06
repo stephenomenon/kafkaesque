@@ -1,7 +1,9 @@
-APP := kafkaesque
+APP:=kafkaesque
 
-build:
+image:
 	docker build -t $(APP) .
 
 run:
-	docker run -it --rm --name so-$(APP) $(APP)
+	docker run -it --rm \
+	-v $(PWD)/config.toml:/go/src/$(APP)/config.toml \
+	$(APP)

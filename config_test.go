@@ -19,7 +19,7 @@ func TestConfigFromEnv(t *testing.T) {
 
 func TestConfigFromFile(t *testing.T) {
 
-	KafkaConfigFromFile()
+	ConfigFromFile()
 
 	t.Log(viper.ConfigFileUsed())
 	t.Log(viper.AllSettings())
