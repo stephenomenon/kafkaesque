@@ -1,7 +1,7 @@
 # kafkaesque
 A simple Kafka tool
 
-![alt text](https://i.warosu.org/data/lit/img/0063/66/1428433709603.png "image by Andy French from Mission Hill")
+![alt text](https://github.com/ten-ten-steve/kafkaesque/blob/master/so-kafkaesque.png "image by Andy French from Mission Hill")
 
 ##### A Word About Vendoring
 I've used the govendor tool from <https://github.com/kardianos/govendor> to manage some third-party packages in this project.
